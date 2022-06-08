@@ -4,11 +4,26 @@ import VueRouter from "vue-router";
 Vue.use(VueRouter);
 
 const routes = [
+  { path: "/", redirect: "/home" },
   {
-    path: "/",
+    path: "/home",
     name: "home",
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/home.vue"),
+    component: () =>import("../views/home/index.vue"),
+  },
+  {
+    path: "/company",
+    name: "company",
+    component: () =>import("../views/company/index.vue"),
+  },
+  {
+    path: "/encyclopedias",
+    name: "encyclopedias",
+    component: () =>import("../views/encyclopedias/index.vue"),
+  },
+  {
+    path: "/position",
+    name: "position",
+    component: () =>import("../views/position/index.vue"),
   },
 
 ];

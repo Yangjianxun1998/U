@@ -1,0 +1,84 @@
+/* 全局设置字体内容 */
+@import url(../font/font.css);
+
+body,
+div,
+span,
+img,
+input {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "PF-Medium";
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+/* flex布局 */
+.flexaic {
+	display: flex;
+	align-items: center;
+}
+
+/* flex居中 */
+.flexcent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* flex竖向对齐 */
+.flexdcn {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* flex底部对齐 */
+.flexaie {
+	display: flex;
+	align-items: flex-end;
+}
+
+/* flex俩端对齐 */
+.flexspb {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* flex换行 */
+.flexwarp {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+/* // 滚动样式 */
+.scol {
+	overflow-y: scroll;
+	position: relative;
+}
+
+/*滚动条整体部分*/
+.scol::-webkit-scrollbar {
+	border-radius: 0.926vh;
+	width: 0.5vw;
+}
+
+/* 滚动条的轨道 */
+.scol::-webkit-scrollbar-track {
+	background-color: #3a5991;
+	border-radius: 0.926vh;
+}
+
+/* 滚动条里面的小方块 */
+.scol::-webkit-scrollbar-thumb {
+	background: linear-gradient(360deg, #00d5e2 0%, #7ff3ff 100%);
+	border-radius: 0.926vh;
+}

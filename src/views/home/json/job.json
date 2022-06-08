@@ -1,0 +1,134 @@
+{
+    "joblist": [
+        {
+            "menu": "推荐",
+            "job": [
+                {
+                    "jobname": "项目经理",
+                    "salary": "20-30k",
+                    "frequency": "13薪",
+                    "place": "北京",
+                    "experience": "经验不限",
+                    "education": "本科",
+                    "logopath": "vmware",
+                    "name": "vmware",
+                    "type":"计算机软件",
+                    "degree":"已上市"
+                },
+                {
+                    "jobname": "项目经理",
+                    "salary": "20-30k",
+                    "frequency": "13薪",
+                    "place": "北京",
+                    "experience": "经验不限",
+                    "education": "本科",
+                    "logopath": "vmware",
+                    "name": "vmware",
+                    "type":"计算机软件",
+                    "degree":"已上市"
+                },
+                {
+                    "jobname": "项目经理",
+                    "salary": "20-30k",
+                    "frequency": "13薪",
+                    "place": "北京",
+                    "experience": "经验不限",
+                    "education": "本科",
+                    "logopath": "vmware",
+                    "name": "vmware",
+                    "type":"计算机软件",
+                    "degree":"已上市"
+                },
+                {
+                    "jobname": "项目经理",
+                    "salary": "20-30k",
+                    "frequency": "13薪",
+                    "place": "北京",
+                    "experience": "经验不限",
+                    "education": "本科",
+                    "logopath": "vmware",
+                    "name": "vmware",
+                    "type":"计算机软件",
+                    "degree":"已上市"
+                },
+                {
+                    "jobname": "项目经理",
+                    "salary": "20-30k",
+                    "frequency": "13薪",
+                    "place": "北京",
+                    "experience": "经验不限",
+                    "education": "本科",
+                    "logopath": "vmware",
+                    "name": "vmware",
+                    "type":"计算机软件",
+                    "degree":"已上市"
+                },
+                {
+                    "jobname": "项目经理",
+                    "salary": "20-30k",
+                    "frequency": "13薪",
+                    "place": "北京",
+                    "experience": "经验不限",
+                    "education": "本科",
+                    "logopath": "vmware",
+                    "name": "vmware",
+                    "type":"计算机软件",
+                    "degree":"已上市"
+                },
+                {
+                    "jobname": "项目经理",
+                    "salary": "20-30k",
+                    "frequency": "",
+                    "place": "北京",
+                    "experience": "经验不限",
+                    "education": "本科",
+                    "logopath": "vmware",
+                    "name": "vmware",
+                    "type":"计算机软件",
+                    "degree":"已上市"
+                },
+                {
+                    "jobname": "项目经理",
+                    "salary": "20-30k",
+                    "frequency": "13薪",
+                    "place": "北京",
+                    "experience": "经验不限",
+                    "education": "本科",
+                    "logopath": "vmware",
+                    "name": "vmware",
+                    "type":"计算机软件",
+                    "degree":"已上市"
+                }
+            ]
+        },
+        {
+            "menu": "推荐",
+            "job": [
+                {
+                    "jobname": "项目经理",
+                    "salary": "20-30k",
+                    "frequency": "13薪",
+                    "place": "北京",
+                    "experience": "经验不限",
+                    "education": "本科",
+                    "logopath": "vmware",
+                    "name": "vmware",
+                    "type":"计算机软件",
+                    "degree":"已上市"
+                },
+                {
+                    "jobname": "项目经理",
+                    "salary": "20-30k",
+                    "frequency": "13薪",
+                    "place": "北京",
+                    "experience": "经验不限",
+                    "education": "本科",
+                    "logopath": "vmware",
+                    "name": "vmware",
+                    "type":"计算机软件",
+                    "degree":"已上市"
+                }
+            ]
+        }
+    ]
+}
