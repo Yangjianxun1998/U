@@ -23,7 +23,15 @@
         </div>
       </div>
       <!-- 上传菜单 -->
-      <div class="flexcent upload">上传</div>
+      <el-upload
+        class="upload"
+        drag
+        action="https://jsonplaceholder.typicode.com/posts/"
+        multiple
+      >
+        <i class="el-icon-upload"></i>
+      </el-upload>
+
       <!-- 功能模块 -->
       <div class="flexcent">
         <div class="portray">简历解析</div>
@@ -104,6 +112,14 @@ export default {
         margin: 2vh 2vw;
         height: 15vh;
         background-color: #d8dddf;
+        /deep/ .el-upload {
+          width: 100%;
+          height: 100%;
+          .el-upload-dragger {
+            width: 100%;
+            height: 100%;
+          }
+        }
       }
       // 人物画像
       .portray {
@@ -147,10 +163,10 @@ export default {
           border-bottom: 0.4vh solid #f2f4f7;
         }
       }
-      .flexcent{
+      .flexcent {
         cursor: pointer;
       }
-      .flexcent:hover{
+      .flexcent:hover {
         box-shadow: 0 0 20px #0000000f;
       }
     }
